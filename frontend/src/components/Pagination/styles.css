@@ -18,14 +18,14 @@
 }
 
 .dsmovie-pagination-button {
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 35px;
     border-radius: 4px;
-    background-color: #fff;
+    background-color: var(--color-primary);
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid var(--color-primary);
+    border: 2px solid var(--color-primary);
     cursor: pointer;
 }
 
@@ -34,8 +34,9 @@
 }
 
 .dsmovie-pagination-button:disabled {
-    border: 1px solid #c2c2c2;
+    border: 2px solid rgb(41, 41, 41);
     cursor: unset;
+    background-color: #D3DEDC;
 }
 
 .dsmovie-pagination-button:disabled svg {
@@ -43,9 +44,9 @@
 }
 
 .dsmovie-pagination-container p {
-    margin: 0;
-    font-size: 12px;
-    color: var(--color-primary);
+    margin: 20px;
+    font-size: 14px;
+    color: #fff;
 }
 
 .dsmovie-flip-horizontal {

@@ -1,0 +1,15 @@
+.dsmovie-btn:hover{
+    background-color: var(--color-secondary);
+    border-color: var(--color-secondary);
+}
+
+.dsmovie-btn{
+    border-color: var(--color-primary);
+}
+
+
+.card{
+    border-radius: 8px;
+    border-color: rgba(75, 74, 74, 0.973);
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.699);
+}
